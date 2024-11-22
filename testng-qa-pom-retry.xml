@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="org.example.listeners.RetryListener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/WebAutomationFramework/src/test/java/org/example/tests/vwoTests/TestVWOLogin_POM_Retry.java">
+        <classes>
+            <class name="org.example.tests.vwoTests.TestVWOLogin_POM_Retry">
+                <methods>
+                    <include name="testLoginNegativeVWO"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
